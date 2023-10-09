@@ -8,11 +8,29 @@ Just take the 'aisekaiAPI' folder and put it into your python 'Lib' folder. to c
 
 The 'aisekai' class is initialized with your Bearer Token.
 
-<mark>yourChats</mark> Returns your chats, including last messages character name, id and more
-<mark>trendingCharacters</mark> Returns trending characters including their information. 
-<mark>getChatId</mark> Returns ChatID you will need it in order to send Messages 
-<mark>getAllMessages</mark> Returns All Messages written by the AI and the User 
-<mark>getCharMessages</mark> Only Returns messages written by the AI
-<mark>createMessage</mark> Send a Message using the function.
+#### yourChats
+
+Returns your chats, including last messages character name, id and more
+
+#### trendingCharacters
+
+Returns trending characters including their information. 
+
+#### getChatId
+
+Returns ChatID you will need it in order to send Messages 
+
+#### getAllMessages
+
+Returns All Messages written by the AI and the User 
+#### getCharMessages
+
+Only Returns messages written by the AI
+
+#### createMessage 
+
+Send a Message using the function.
+
+### Additional info
 
 Further documentation is provided in The module itself.
